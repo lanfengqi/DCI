@@ -1,0 +1,16 @@
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Presentation.Windows.Startup.exe
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Presentation.Windows.Startup.pdb
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Domain.Core.dll
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Domain.Core.MainModule.dll
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Microsoft.Practices.Unity.dll
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Domain.Core.MainModule.pdb
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Domain.Core.pdb
+E:\030.GitHub\DCI\Presentation.Windows.Startup\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\030.GitHub\DCI\Presentation.Windows.Startup\obj\x86\Debug\Presentation.Windows.Startup.exe
+E:\030.GitHub\DCI\Presentation.Windows.Startup\obj\x86\Debug\Presentation.Windows.Startup.pdb
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Infrastructure.CrossCutting.Ioc.dll
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Infrastructure.CrossCutting.Ioc.pdb
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Infrastructure.Data.dll
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Infrastructure.Data.MainModule.dll
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Infrastructure.Data.MainModule.pdb
+E:\030.GitHub\DCI\Presentation.Windows.Startup\bin\Debug\Infrastructure.Data.pdb

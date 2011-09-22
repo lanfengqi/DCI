@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{235ECDA6-779F-48C9-ABFE-841FDDA9555E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Domain.Core.MainModule</RootNamespace>
+    <AssemblyName>Domain.Core.MainModule</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contexts\BorrowBooksContext.cs" />
+    <Compile Include="Contexts\OutBookContext.cs" />
+    <Compile Include="Contexts\ReturnBooksContext.cs" />
+    <Compile Include="Contexts\StoreBookContext.cs" />
+    <Compile Include="Entities\Book.cs" />
+    <Compile Include="Entities\BookOutInfo.cs" />
+    <Compile Include="Entities\BookStoreInfo.cs" />
+    <Compile Include="Entities\BorrowInfo.cs" />
+    <Compile Include="Entities\LibraryAccount.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\IBookOutInfoRepository.cs" />
+    <Compile Include="Repositories\IBookRepository.cs" />
+    <Compile Include="Repositories\IBookStoreInfoRepository.cs" />
+    <Compile Include="Repositories\IBorrowInfoRepository.cs" />
+    <Compile Include="Repositories\ILibraryAccountRepository.cs" />
+    <Compile Include="Roles\IBorrower.cs" />
+    <Compile Include="Services\ILibraryService.cs" />
+    <Compile Include="Services\LibraryService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Events\" />
+    <Folder Include="ValueObjects\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain.Core\Domain.Core.csproj">
+      <Project>{57B64FC7-CEFF-4E68-AFE1-968401BDBA14}</Project>
+      <Name>Domain.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure.CrossCutting.Ioc\Infrastructure.CrossCutting.Ioc.csproj">
+      <Project>{317C0AD6-D51F-4DCA-8BF6-4ADC148C65DE}</Project>
+      <Name>Infrastructure.CrossCutting.Ioc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

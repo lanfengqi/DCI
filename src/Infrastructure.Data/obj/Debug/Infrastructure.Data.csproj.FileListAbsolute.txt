@@ -1,0 +1,10 @@
+E:\030.GitHub\DCI\Infrastructure.Data\obj\Debug\ResolveAssemblyReference.cache
+E:\030.GitHub\DCI\Infrastructure.Data\bin\Debug\Infrastructure.Data.dll
+E:\030.GitHub\DCI\Infrastructure.Data\bin\Debug\Infrastructure.Data.pdb
+E:\030.GitHub\DCI\Infrastructure.Data\bin\Debug\Domain.Core.dll
+E:\030.GitHub\DCI\Infrastructure.Data\bin\Debug\Infrastructure.CrossCutting.Ioc.dll
+E:\030.GitHub\DCI\Infrastructure.Data\bin\Debug\Microsoft.Practices.Unity.dll
+E:\030.GitHub\DCI\Infrastructure.Data\bin\Debug\Domain.Core.pdb
+E:\030.GitHub\DCI\Infrastructure.Data\bin\Debug\Infrastructure.CrossCutting.Ioc.pdb
+E:\030.GitHub\DCI\Infrastructure.Data\obj\Debug\Infrastructure.Data.dll
+E:\030.GitHub\DCI\Infrastructure.Data\obj\Debug\Infrastructure.Data.pdb
