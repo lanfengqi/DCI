@@ -9,6 +9,8 @@ using Infrastructure.Data;
 using Infrastructure.CrossCutting.Ioc;
 using Infrastructure.Data.MainModule;
 using Microsoft.Practices.Unity;
+using Infrastructure.CrossCutting.Logging;
+using Infrastructure.CrossCutting.NetFramework.Logging;
 
 
 namespace Presentation.Windows.Startup
@@ -46,6 +48,7 @@ namespace Presentation.Windows.Startup
             container.RegisterType<IBorrowInfoRepository, BorrowInfoRepository>(new ContainerControlledLifetimeManager());
             container.RegisterType<IBookStoreInfoRepository, BookStoreInfoRepository>(new ContainerControlledLifetimeManager());
             container.RegisterType<IBookOutInfoRepository, BookOutInfoRepository>(new ContainerControlledLifetimeManager());
+            container.RegisterType<ITraceManager, TraceManager>(new ContainerControlledLifetimeManager());
 
             //初始化Domain
             DomainInitializer.Current.InitializeDomain(typeof(Book).Assembly);

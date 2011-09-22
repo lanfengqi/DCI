@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
 using Domain.Core;
+using Infrastructure.CrossCutting.Logging;
 
 namespace Infrastructure.Data
 {
@@ -16,13 +18,19 @@ namespace Infrastructure.Data
     {
         #region Private Variables
         private List<TrackingObject> trackingObjectList = new List<TrackingObject>();
+        private ITraceManager _TraceManager;
         #endregion
 
         #region Constructors
 
-        public Repository(IUnitOfWork iUnitOfWork)
+        public Repository(IUnitOfWork iUnitOfWork, ITraceManager traceManager)
         {
+            _TraceManager = traceManager;
             iUnitOfWork.RegisterRepository(this);
+            _TraceManager.TraceInfo(
+               string.Format(CultureInfo.InvariantCulture,
+                            Resources.Messages.trace_ConstructRepository,
+                            typeof(TAggregateRoot).Name));
         }
 
         #endregion
@@ -77,6 +85,11 @@ namespace Infrastructure.Data
                 {
                     trackingObjectList.Add(new TrackingObject { Id = aggregateRoot.Id, CurrentValue = aggregateRoot, Status = AggregateRootStatus.New });
                 }
+
+                _TraceManager.TraceInfo(
+                        string.Format(CultureInfo.InvariantCulture,
+                                      Resources.Messages.trace_AddedItemRepository,
+                                      typeof(TAggregateRoot).Name));
             }
         }
         public virtual void Remove(TAggregateRoot aggregateRoot)
@@ -92,6 +105,10 @@ namespace Infrastructure.Data
                 if (trackingObject != null)
                 {
                     trackingObject.Status = AggregateRootStatus.Removed;
+                    _TraceManager.TraceInfo(
+               string.Format(CultureInfo.InvariantCulture,
+                            Resources.Messages.trace_DeletedItemRepository,
+                            typeof(TAggregateRoot).Name));
                 }
             }
         }

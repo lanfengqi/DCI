@@ -13,3 +13,13 @@ E:\030.GitHub\DCI\Domain.Core.MainModule\bin\Debug\Infrastructure.CrossCutting.I
 E:\030.GitHub\DCI\Domain.Core.MainModule\bin\Debug\Infrastructure.CrossCutting.Ioc.pdb
 E:\030.GitHub\DCI\Domain.Core.MainModule\bin\Debug\Domain.Core.dll
 E:\030.GitHub\DCI\Domain.Core.MainModule\bin\Debug\Domain.Core.pdb
+E:\030.GitHub\DCI\src\Domain.Core.MainModule\bin\Debug\Domain.Core.MainModule.dll
+E:\030.GitHub\DCI\src\Domain.Core.MainModule\bin\Debug\Domain.Core.MainModule.pdb
+E:\030.GitHub\DCI\src\Domain.Core.MainModule\bin\Debug\Domain.Core.dll
+E:\030.GitHub\DCI\src\Domain.Core.MainModule\bin\Debug\Infrastructure.CrossCutting.Ioc.dll
+E:\030.GitHub\DCI\src\Domain.Core.MainModule\bin\Debug\Microsoft.Practices.Unity.dll
+E:\030.GitHub\DCI\src\Domain.Core.MainModule\bin\Debug\Domain.Core.pdb
+E:\030.GitHub\DCI\src\Domain.Core.MainModule\bin\Debug\Infrastructure.CrossCutting.Ioc.pdb
+E:\030.GitHub\DCI\src\Domain.Core.MainModule\obj\Debug\ResolveAssemblyReference.cache
+E:\030.GitHub\DCI\src\Domain.Core.MainModule\obj\Debug\Domain.Core.MainModule.dll
+E:\030.GitHub\DCI\src\Domain.Core.MainModule\obj\Debug\Domain.Core.MainModule.pdb

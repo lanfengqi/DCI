@@ -2,7 +2,7 @@
 using System.Linq;
 using Domain.Core;
 using Domain.Core.MainModule.Repositories;
-using Infrastructure.Data;
+using Infrastructure.CrossCutting.Logging;
 using Domain.Core.MainModule.Entities;
 
 
@@ -11,8 +11,8 @@ namespace Infrastructure.Data.MainModule
     public class BorrowInfoRepository : Repository<BorrowInfo, UniqueId>, IBorrowInfoRepository
     {
 
-        public BorrowInfoRepository(IUnitOfWork iUnitOfWork)
-            : base(iUnitOfWork)
+        public BorrowInfoRepository(IUnitOfWork iUnitOfWork, ITraceManager traceManager)
+            : base(iUnitOfWork, traceManager)
         {
         }
 

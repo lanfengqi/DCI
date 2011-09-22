@@ -6,3 +6,11 @@ E:\030.GitHub\DCI\Domain.Core\obj\Debug\Domain.Core.pdb
 E:\030.GitHub\DCI\Domain.Core\bin\Debug\Microsoft.Practices.Unity.dll
 E:\030.GitHub\DCI\Domain.Core\bin\Debug\Infrastructure.CrossCutting.Ioc.dll
 E:\030.GitHub\DCI\Domain.Core\bin\Debug\Infrastructure.CrossCutting.Ioc.pdb
+E:\030.GitHub\DCI\src\Domain.Core\bin\Debug\Domain.Core.dll
+E:\030.GitHub\DCI\src\Domain.Core\bin\Debug\Domain.Core.pdb
+E:\030.GitHub\DCI\src\Domain.Core\bin\Debug\Infrastructure.CrossCutting.Ioc.dll
+E:\030.GitHub\DCI\src\Domain.Core\bin\Debug\Microsoft.Practices.Unity.dll
+E:\030.GitHub\DCI\src\Domain.Core\bin\Debug\Infrastructure.CrossCutting.Ioc.pdb
+E:\030.GitHub\DCI\src\Domain.Core\obj\Debug\ResolveAssemblyReference.cache
+E:\030.GitHub\DCI\src\Domain.Core\obj\Debug\Domain.Core.dll
+E:\030.GitHub\DCI\src\Domain.Core\obj\Debug\Domain.Core.pdb

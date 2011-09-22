@@ -63,6 +63,14 @@
       <Project>{317C0AD6-D51F-4DCA-8BF6-4ADC148C65DE}</Project>
       <Name>Infrastructure.CrossCutting.Ioc</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Infrastructure.CrossCutting.NetFramework\Infrastructure.CrossCutting.NetFramework.csproj">
+      <Project>{4697534E-F0B5-402C-B466-4DABDFE8665D}</Project>
+      <Name>Infrastructure.CrossCutting.NetFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Infrastructure.CrossCutting\Infrastructure.CrossCutting.csproj">
+      <Project>{459400D6-512B-41D7-8D8A-53BC6DF64589}</Project>
+      <Name>Infrastructure.CrossCutting</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Infrastructure.Data.MainModule\Infrastructure.Data.MainModule.csproj">
       <Project>{7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7}</Project>
       <Name>Infrastructure.Data.MainModule</Name>
@@ -71,6 +79,9 @@
       <Project>{F456EFC9-67E6-488D-8B6C-E465CB5C642A}</Project>
       <Name>Infrastructure.Data</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
