@@ -16,20 +16,24 @@ namespace Domain.Core.MainModule.Entities
             this.Count = count;
         }
 
-        public Book Book { get; private set; }
-        public int Count { get; private set; }
-        public string Location { get; set; }
+        protected BookStoreInfo()
+            : base(Guid.NewGuid())
+        { }
 
-        public void IncreaseCount()
+        public virtual Book Book { get; private set; }
+        public virtual int Count { get; private set; }
+        public virtual string Location { get; set; }
+
+        public virtual void IncreaseCount()
         {
             this.Count++;
         }
-        public void DecreaseCount()
+        public virtual void DecreaseCount()
         {
             this.Count--;
         }
 
-        public void DecreaseCount(int count)
+        public virtual void DecreaseCount(int count)
         {
             this.Count -= count;
         }

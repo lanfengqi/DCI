@@ -73,6 +73,15 @@ namespace Infrastructure.Data
                             typeof(TAggregateRoot).Name));
         }
 
+        public virtual void Update(TAggregateRoot aggregateRoot)
+        {
+            session.Update(aggregateRoot);
+            session.Flush();
+            _TraceManager.TraceInfo(string.Format(CultureInfo.InvariantCulture,
+                Resources.Messages.trace_AppliedChangedItemRepository,
+                typeof(TAggregateRoot).Name));
+        }
+
         #endregion
 
         #region IPersistableRepository Members

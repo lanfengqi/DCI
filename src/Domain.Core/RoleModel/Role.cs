@@ -14,7 +14,7 @@ namespace Domain.Core
         #endregion
 
         #region Members
-        protected TActor Actor { get; private set; }
+        public TActor Actor { get; set; }
         #endregion
     }
 }

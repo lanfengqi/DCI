@@ -10,11 +10,11 @@ namespace Domain.Core.MainModule.Services
         /// <summary>
         /// 将某本书借给某人
         /// </summary>
-        void LendBook(Book book, IBorrower borrower);
+        void LendBook(Book book, LibraryAccount libraryAccount);
         /// <summary>
         /// 接收已归还的书
         /// </summary>
-        void ReceiveReturnedBook(Book book, IBorrower borrower);
+        void ReceiveReturnedBook(Book book, LibraryAccount libraryAccount);
 
         /// <summary>
         /// 图书入库

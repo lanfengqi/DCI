@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+   assembly="Domain.Core.MainModule"
+   namespace="Domain.Core.MainModule.Entities">
+
+  <class name ="BorrowInfo" table="BorrowInfo">
+    <id name="Id" type="Guid" access="" >
+      <generator class="assigned" />
+    </id>
+    <property name ="BorrowTime" type="DateTime"/>
+    <property name ="ReturnTime" type="DateTime" />
+
+    <many-to-one name="Book" column="Book" not-null="true"
+                 class="Domain.Core.MainModule.Entities.Book,Domain.Core.MainModule"
+                 foreign-key="FK_BorrowBook" />
+    <many-to-one name="LibraryAccount" column="LibraryAccount" not-null="true"
+                 class="Domain.Core.MainModule.Entities.LibraryAccount,Domain.Core.MainModule"
+                 foreign-key="FK_BorrowLibraryAccount" />
+  </class>
+</hibernate-mapping>

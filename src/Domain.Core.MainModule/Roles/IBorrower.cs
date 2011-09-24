@@ -7,6 +7,8 @@ namespace Domain.Core.MainModule.Roles
 {
     public interface IBorrower : IRole<Guid>
     {
+        
+
         void BorrowBook(Book book);
         void ReturnBook(Book book);
     }
@@ -27,12 +29,12 @@ namespace Domain.Core.MainModule.Roles
         public void BorrowBook(Book book)
         {
             //通知图书馆把书借给我
-            libraryService.LendBook(book, this);
+            libraryService.LendBook(book, this.Actor);
         }
         public void ReturnBook(Book book)
         {
             //通知图书馆接收归还的书
-            libraryService.ReceiveReturnedBook(book, this);
+            libraryService.ReceiveReturnedBook(book, this.Actor);
         }
     }
 }

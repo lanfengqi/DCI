@@ -6,7 +6,7 @@ namespace Domain.Core.MainModule.Entities
     public class LibraryAccount : AggregateRoot<Guid>
     {
         public LibraryAccount()
-            :this("1234124")
+            :this("0")
         {}
 
         public LibraryAccount(string number)

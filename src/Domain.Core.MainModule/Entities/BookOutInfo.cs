@@ -19,8 +19,13 @@ namespace Domain.Core.MainModule.Entities
             this.OutTime = outTime;
         }
 
-        public Book Book { get; private set; }
-        public int Count { get; private set; }
-        public DateTime? OutTime { get; set; }
+        protected  BookOutInfo():base(Guid.NewGuid())
+        {
+            
+        }
+
+        public virtual Book Book { get; private set; }
+        public virtual int Count { get; private set; }
+        public virtual DateTime? OutTime { get; set; }
     }
 }

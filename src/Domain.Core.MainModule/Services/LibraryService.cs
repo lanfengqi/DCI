@@ -19,7 +19,7 @@ namespace Domain.Core.MainModule.Services
             this.borrowInfoRepository = borrowInfoRepository;
         }
 
-        public void LendBook(Book book, IBorrower borrower)
+        public void LendBook(Book book, LibraryAccount libraryAccount)
         {
             var bookStoreInfo = bookStoreInfoRepository.GetBookStoreInfo(book.Id);
             if (bookStoreInfo.Count == 0)
@@ -27,17 +27,16 @@ namespace Domain.Core.MainModule.Services
                 throw new Exception(string.Format("The count of book '{0}' in library is zero, so you cannot borrow it.", book.BookName));
             }
             bookStoreInfo.DecreaseCount(); //数量减1
-            bookStoreInfo.Location = null; //位置清空
 
             //生成借书信息并保存到Repository中
-            borrowInfoRepository.Add(new BorrowInfo(book, borrower, DateTime.Now));
+            borrowInfoRepository.Add(new BorrowInfo(book, libraryAccount, DateTime.Now));
         }
 
-        public void ReceiveReturnedBook(Book book, IBorrower borrower)
+        public void ReceiveReturnedBook(Book book, LibraryAccount libraryAccount)
         {
             //设置借书信息的还书时间
             //设置借书信息的还书时间
-            var borrowedInfo = borrowInfoRepository.FindNotReturnedBorrowInfo(borrower.Id, book.Id);
+            var borrowedInfo = borrowInfoRepository.FindNotReturnedBorrowInfo(libraryAccount.Id, book.Id);
             borrowedInfo.ReturnTime = DateTime.Now;
 
             //这里，真正的系统还会计算归还时间是否超期，计算罚款之类的逻辑，因为我这个是一个演示的例子，所以不做这个处理了
@@ -58,14 +57,13 @@ namespace Domain.Core.MainModule.Services
 
         public void OutBook(Book book, int count)
         {
-            
+
             var bookStoreInfo = bookStoreInfoRepository.GetBookStoreInfo(book.Id);
             if (bookStoreInfo.Count == 0 || bookStoreInfo.Count < count)
             {
                 throw new Exception(string.Format("The count of book '{0}' in library is zero, so you cannot borrow it.", book.BookName));
             }
             bookStoreInfo.DecreaseCount(count);
-            bookStoreInfo.Location = null; //位置清空
 
             //图书去库信息并保存到Repository中
             bookOutInfoRepository.Add(new BookOutInfo(book, count, DateTime.Now));

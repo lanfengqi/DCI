@@ -9,6 +9,8 @@ namespace Domain.Core
         IEnumerable<TAggregateRoot> GetAll();
         TAggregateRoot Get(TAggregateRootId id);
         void Add(TAggregateRoot aggregateRoot);
+        void Remove(TAggregateRoot aggregateRoot);
+        void Update(TAggregateRoot aggregateRoot);
     }
 
 }

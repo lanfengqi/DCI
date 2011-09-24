@@ -2,5 +2,6 @@
 {
     public interface IRole<TRoleId> : IEntity<TRoleId>
     {
+
     }
 }

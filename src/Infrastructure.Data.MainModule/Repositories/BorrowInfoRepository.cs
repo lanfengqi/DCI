@@ -19,11 +19,11 @@ namespace Infrastructure.Data.MainModule
 
         public IList<BorrowInfo> FindNotReturnedBorrowInfos(Guid borrowerId)
         {
-            return GetAll().Where(borrowInfo => borrowInfo.Borrower.Id == borrowerId && borrowInfo.ReturnTime == null).ToList();
+            return GetAll().Where(borrowInfo => borrowInfo.LibraryAccount.Id == borrowerId && borrowInfo.ReturnTime == null).ToList();
         }
         public BorrowInfo FindNotReturnedBorrowInfo(Guid borrowerId, Guid bookId)
         {
-            return GetAll().FirstOrDefault(borrowInfo => borrowInfo.Borrower.Id == borrowerId && borrowInfo.Book.Id == bookId && borrowInfo.ReturnTime == null);
+            return GetAll().FirstOrDefault(borrowInfo => borrowInfo.LibraryAccount.Id == borrowerId && borrowInfo.Book.Id == bookId && borrowInfo.ReturnTime == null);
         }
     }
 }

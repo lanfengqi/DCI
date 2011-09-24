@@ -7,7 +7,7 @@
     <id name="Id" type="Guid" access="" >
       <generator class="assigned" />
     </id>
-    <property name ="BookName"/>
+    <property name ="BookName" type="string"/>
     <property name ="Author"/>
     <property name ="Publisher"/>
     <property name ="ISBN"/>

@@ -72,33 +72,33 @@ namespace Presentation.Windows.Startup
             bookRepository.Add(book2);
 
             //创建一个图书馆用户帐号，用户凭帐号借书
-            var libraryAccount = new LibraryAccount(GenerateAccountNumber(10)) { OwnerName = "汤雪华", IsLocked = false };
+            var libraryAccount = new LibraryAccount(GenerateAccountNumber(10)) { OwnerName = "赖小天", IsLocked = false };
             libraryAccountRepository.Add(libraryAccount);
             PrintAccountInfo(libraryAccount);
 
             //创建并启动图书入库场景
-            //PrintDescriptionBeforeStoreBookContext(book1, book2);
-            //new StoreBookContext(library, book1).Interaction(2, "4F-S-0001");
-            //new StoreBookContext(library, book2).Interaction(3, "4F-N-0002");
-            //PrintBookCount(book1, book2);
+            PrintDescriptionBeforeStoreBookContext(book1, book2);
+            new StoreBookContext(library, book1).Interaction(2, "4F-S-0001");
+            new StoreBookContext(library, book2).Interaction(3, "4F-N-0002");
+            PrintBookCount(book1, book2);
 
             //创建并启动借书场景
-            //PrintDescriptionBeforeContext1(libraryAccount, book1, book2);
-            //new BorrowBooksContext().Interaction(libraryAccount, new List<Book> { book1, book2 });
-            //PrintBorrowedInfo(libraryAccount);
-            //PrintBookCount(book1, book2);
+            PrintDescriptionBeforeContext1(libraryAccount, book1, book2);
+            new BorrowBooksContext().Interaction(libraryAccount, new List<Book> { book1, book2 });
+            PrintBorrowedInfo(libraryAccount);
+            PrintBookCount(book1, book2);
 
             //创建并启动还书场景
-            //PrintDescriptionBeforeContext2(libraryAccount, book1);
-            //new ReturnBooksContext().Interaction(libraryAccount, new List<Book> { book1 });
-            //PrintBorrowedInfo(libraryAccount);
-            //PrintBookCount(book1, book2);
+            PrintDescriptionBeforeContext2(libraryAccount, book1);
+            new ReturnBooksContext().Interaction(libraryAccount, new List<Book> { book1 });
+            PrintBorrowedInfo(libraryAccount);
+            PrintBookCount(book1, book2);
 
             //创建并启动图书出库
-            //PrintDescriptionBeforeOutBookContext(book1, book2);
-            //new OutBookContext(library, book1).Interaction(1);
-            //new OutBookContext(library, book2).Interaction(1);
-            //PrintBookCount(book1, book2);
+            PrintDescriptionBeforeOutBookContext(book1, book2);
+            new OutBookContext(library, book1).Interaction(1);
+            new OutBookContext(library, book2).Interaction(1);
+            PrintBookCount(book1, book2);
         }
 
         #region Helper Methods
