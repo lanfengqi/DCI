@@ -29,4 +29,3 @@ E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\Castle.Core.dll
 E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\NHibernate.ByteCode.Castle.dll
 E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\Antlr3.Runtime.dll
 E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\Remotion.Data.Linq.dll
-E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\Infrastructure.Data.dll.config

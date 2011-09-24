@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure.Data
+namespace Infrastructure.CrossCutting
 {
     public class Disposable : IDisposable
     {

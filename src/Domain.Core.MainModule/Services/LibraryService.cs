@@ -35,7 +35,6 @@ namespace Domain.Core.MainModule.Services
         public void ReceiveReturnedBook(Book book, LibraryAccount libraryAccount)
         {
             //设置借书信息的还书时间
-            //设置借书信息的还书时间
             var borrowedInfo = borrowInfoRepository.FindNotReturnedBorrowInfo(libraryAccount.Id, book.Id);
             borrowedInfo.ReturnTime = DateTime.Now;
 

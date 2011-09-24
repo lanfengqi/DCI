@@ -1,4 +1,5 @@
 ﻿
+using Infrastructure.CrossCutting;
 using NHibernate;
 using NHibernate.Tool.hbm2ddl;
 using NHibernate.Cfg;
