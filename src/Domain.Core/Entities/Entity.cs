@@ -13,6 +13,6 @@ namespace Domain.Core
             this.Id = id;
         }
 
-        public TEntityId Id { get; private set; }
+        public virtual TEntityId Id { get; private set; }
     }
 }

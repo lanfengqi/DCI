@@ -3,15 +3,15 @@ using Domain.Core;
 
 namespace Domain.Core.MainModule.Entities
 {
-    public class BookOutInfo : AggregateRoot<UniqueId>
+    public class BookOutInfo : AggregateRoot<Guid>
     {
         public BookOutInfo(Book book, int count, DateTime outTime)
-            : this(new UniqueId(), book, count, outTime)
+            : this(Guid.NewGuid(), book, count, outTime)
         {
 
         }
 
-        public BookOutInfo(UniqueId id, Book book, int count, DateTime outTime)
+        public BookOutInfo(Guid id, Book book, int count, DateTime outTime)
             : base(id)
         {
             this.Book = book;

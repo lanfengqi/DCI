@@ -1,82 +1,81 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="57B64FC7-CEFF-4E68-AFE1-968401BDBA14/f:IAggregateRoot.cs" caret="21" fromTop="0" />
-      <File id="57B64FC7-CEFF-4E68-AFE1-968401BDBA14/f:IRepository.cs" caret="326" fromTop="9" />
-      <File id="57B64FC7-CEFF-4E68-AFE1-968401BDBA14/d:Entities/f:DomainInitializer.cs" caret="134" fromTop="4" />
-      <File id="57B64FC7-CEFF-4E68-AFE1-968401BDBA14/f:IRemoveableRepository.cs" caret="267" fromTop="9" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Contexts/f:StoreBookContext.cs" caret="0" fromTop="0" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Contexts/f:ReturnBooksContext.cs" caret="33" fromTop="0" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Contexts/f:OutBookContext.cs" caret="0" fromTop="0" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:LibraryAccount.cs" caret="0" fromTop="0" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:BorrowInfo.cs" caret="90" fromTop="2" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:BookStoreInfo.cs" caret="0" fromTop="0" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:BookOutInfo.cs" caret="0" fromTop="0" />
+      <File id="57B64FC7-CEFF-4E68-AFE1-968401BDBA14/f:IRepository.cs" caret="321" fromTop="9" />
+      <File id="3DC3E1A5-EF28-44F7-835A-87503D615E77/f:App.config" caret="0" fromTop="0" />
+      <File id="57B64FC7-CEFF-4E68-AFE1-968401BDBA14/d:Entities/f:Entity.cs" caret="337" fromTop="15" />
+      <File id="3DC3E1A5-EF28-44F7-835A-87503D615E77/f:hibernate.cfg.xml" caret="682" fromTop="10" />
+      <File id="57B64FC7-CEFF-4E68-AFE1-968401BDBA14/f:IEntity.cs" caret="0" fromTop="0" />
+      <File id="57B64FC7-CEFF-4E68-AFE1-968401BDBA14/d:Entities/f:AggregateRoot.cs" caret="431" fromTop="15" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:BookOutInfo.cs" caret="243" fromTop="8" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:BookStoreInfo.cs" caret="249" fromTop="8" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:BorrowInfo.cs" caret="310" fromTop="9" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Mappings/f:Book.hbm.xml" caret="343" fromTop="9" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Mappings/f:LibraryAccount.hbm.xml" caret="467" fromTop="13" />
       <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:Book.cs" caret="0" fromTop="0" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Roles/f:IBorrower.cs" caret="318" fromTop="12" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Services/f:ILibraryService.cs" caret="109" fromTop="4" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBookOutInfoRepository.cs" caret="72" fromTop="3" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBookRepository.cs" caret="109" fromTop="4" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBookStoreInfoRepository.cs" caret="107" fromTop="3" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBorrowInfoRepository.cs" caret="144" fromTop="5" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:ILibraryAccountRepository.cs" caret="109" fromTop="4" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Services/f:LibraryService.cs" caret="134" fromTop="3" />
-      <File id="F456EFC9-67E6-488D-8B6C-E465CB5C642A/f:IPersistableRepository.cs" caret="31" fromTop="1" />
-      <File id="F456EFC9-67E6-488D-8B6C-E465CB5C642A/f:IUnitOfWork.cs" caret="46" fromTop="2" />
-      <File id="F456EFC9-67E6-488D-8B6C-E465CB5C642A/f:UnitOfWork.cs" caret="94" fromTop="3" />
-      <File id="F456EFC9-67E6-488D-8B6C-E465CB5C642A/f:Repository.cs" caret="176" fromTop="8" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookRepository.cs" caret="129" fromTop="3" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:LibraryAccountRepository.cs" caret="129" fromTop="3" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookOutInfoRepository.cs" caret="129" fromTop="3" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BorrowInfoRepository.cs" caret="144" fromTop="4" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookStoreInfoRepository.cs" caret="151" fromTop="5" />
-      <File id="3DC3E1A5-EF28-44F7-835A-87503D615E77/f:Program.cs" caret="259" fromTop="7" />
+      <File id="F456EFC9-67E6-488D-8B6C-E465CB5C642A/f:DatabaseFactory.cs" caret="568" fromTop="16" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:LibraryAccount.cs" caret="224" fromTop="8" />
+      <File id="3DC3E1A5-EF28-44F7-835A-87503D615E77/f:Program.cs" caret="3870" fromTop="19" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:LibraryAccountRepository.cs" caret="289" fromTop="10" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BorrowInfoRepository.cs" caret="883" fromTop="23" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookStoreInfoRepository.cs" caret="0" fromTop="0" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookRepository.cs" caret="293" fromTop="9" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Services/f:LibraryService.cs" caret="3046" fromTop="17" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookOutInfoRepository.cs" caret="307" fromTop="9" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Services/f:ILibraryService.cs" caret="822" fromTop="31" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Roles/f:IBorrower.cs" caret="369" fromTop="13" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:ILibraryAccountRepository.cs" caret="255" fromTop="7" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBorrowInfoRepository.cs" caret="162" fromTop="7" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBookStoreInfoRepository.cs" caret="303" fromTop="8" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBookRepository.cs" caret="225" fromTop="7" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBookOutInfoRepository.cs" caret="244" fromTop="6" />
+      <File id="F456EFC9-67E6-488D-8B6C-E465CB5C642A/f:Repository.cs" caret="1899" fromTop="14" />
     </RecentFiles>
     <RecentEdits>
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Contexts/f:ReturnBooksContext.cs" caret="0" fromTop="0" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Contexts/f:ReturnBooksContext.cs" caret="33" fromTop="0" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Contexts/f:StoreBookContext.cs" caret="0" fromTop="0" />
-      <File id="F456EFC9-67E6-488D-8B6C-E465CB5C642A/f:Repository.cs" caret="744" fromTop="16" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookStoreInfoRepository.cs" caret="0" fromTop="0" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookOutInfoRepository.cs" caret="322" fromTop="8" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Services/f:LibraryService.cs" caret="814" fromTop="18" />
-      <File id="3DC3E1A5-EF28-44F7-835A-87503D615E77/f:Program.cs" caret="70" fromTop="3" />
-      <File id="3DC3E1A5-EF28-44F7-835A-87503D615E77/f:Program.cs" caret="727" fromTop="0" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBookOutInfoRepository.cs" caret="107" fromTop="3" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBookRepository.cs" caret="109" fromTop="4" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBookStoreInfoRepository.cs" caret="107" fromTop="3" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBorrowInfoRepository.cs" caret="144" fromTop="5" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:ILibraryAccountRepository.cs" caret="109" fromTop="4" />
-      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Services/f:LibraryService.cs" caret="134" fromTop="3" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookRepository.cs" caret="273" fromTop="9" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookStoreInfoRepository.cs" caret="321" fromTop="11" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BorrowInfoRepository.cs" caret="350" fromTop="13" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:LibraryAccountRepository.cs" caret="179" fromTop="7" />
-      <File id="3DC3E1A5-EF28-44F7-835A-87503D615E77/f:Program.cs" caret="439" fromTop="15" />
-      <File id="F456EFC9-67E6-488D-8B6C-E465CB5C642A/f:IPersistableRepository.cs" caret="31" fromTop="1" />
-      <File id="F456EFC9-67E6-488D-8B6C-E465CB5C642A/f:IUnitOfWork.cs" caret="46" fromTop="2" />
-      <File id="F456EFC9-67E6-488D-8B6C-E465CB5C642A/f:Repository.cs" caret="176" fromTop="8" />
-      <File id="F456EFC9-67E6-488D-8B6C-E465CB5C642A/f:UnitOfWork.cs" caret="94" fromTop="3" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookRepository.cs" caret="129" fromTop="3" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:LibraryAccountRepository.cs" caret="129" fromTop="3" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookOutInfoRepository.cs" caret="129" fromTop="3" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BorrowInfoRepository.cs" caret="144" fromTop="4" />
-      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookStoreInfoRepository.cs" caret="151" fromTop="5" />
-      <File id="3DC3E1A5-EF28-44F7-835A-87503D615E77/f:Program.cs" caret="259" fromTop="7" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBookStoreInfoRepository.cs" caret="303" fromTop="8" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBorrowInfoRepository.cs" caret="409" fromTop="10" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:IBorrowInfoRepository.cs" caret="162" fromTop="7" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Repositories/f:ILibraryAccountRepository.cs" caret="255" fromTop="7" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Roles/f:IBorrower.cs" caret="223" fromTop="7" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Roles/f:IBorrower.cs" caret="369" fromTop="13" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Services/f:ILibraryService.cs" caret="822" fromTop="17" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Services/f:LibraryService.cs" caret="3046" fromTop="17" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookOutInfoRepository.cs" caret="307" fromTop="9" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookRepository.cs" caret="293" fromTop="9" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookStoreInfoRepository.cs" caret="305" fromTop="9" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BookStoreInfoRepository.cs" caret="604" fromTop="17" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BorrowInfoRepository.cs" caret="334" fromTop="11" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BorrowInfoRepository.cs" caret="644" fromTop="19" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:BorrowInfoRepository.cs" caret="883" fromTop="23" />
+      <File id="7C4E12FF-2C28-4DD5-A2F8-CD7B08D355D7/d:Repositories/f:LibraryAccountRepository.cs" caret="289" fromTop="10" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:Book.cs" caret="507" fromTop="19" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:Book.cs" caret="171" fromTop="7" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:BookOutInfo.cs" caret="243" fromTop="8" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:BookStoreInfo.cs" caret="249" fromTop="8" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:BorrowInfo.cs" caret="310" fromTop="9" />
+      <File id="3DC3E1A5-EF28-44F7-835A-87503D615E77/f:Program.cs" caret="3929" fromTop="20" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Mappings/f:LibraryAccount.hbm.xml" caret="467" fromTop="15" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Mappings/f:Book.hbm.xml" caret="343" fromTop="9" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Mappings/f:LibraryAccount.hbm.xml" caret="238" fromTop="5" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Mappings/f:LibraryAccount.hbm.xml" caret="433" fromTop="11" />
+      <File id="3DC3E1A5-EF28-44F7-835A-87503D615E77/f:Program.cs" caret="3632" fromTop="11" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:LibraryAccount.cs" caret="629" fromTop="18" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:LibraryAccount.cs" caret="477" fromTop="14" />
+      <File id="235ECDA6-779F-48C9-ABFE-841FDDA9555E/d:Entities/f:LibraryAccount.cs" caret="224" fromTop="8" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="public" priority="936" />
+      <Item value="public" priority="999" />
       <Item value="AggregateRoot" priority="63" />
       <Item value="TAggregateRootId`0" priority="63" />
-      <Item value="base" priority="95" />
+      <Item value="base" priority="127" />
       <Item value="IDisposable`0" priority="63" />
       <Item value="IDomainEvent`0" priority="31" />
       <Item value="#region" priority="127" />
-      <Item value="#endregion" priority="223" />
+      <Item value="#endregion" priority="287" />
       <Item value="IEventPublisher`0" priority="31" />
-      <Item value="using" priority="1084" />
+      <Item value="using" priority="1208" />
       <Item value="Domain" priority="93" />
       <Item value="Core.MainModule" priority="26" />
       <Item value="IRole" priority="31" />
@@ -90,11 +89,11 @@
       <Item value="Exception`0" priority="31" />
       <Item value="IValidationError`0" priority="31" />
       <Item value="IRepository" priority="63" />
-      <Item value="System" priority="61" />
+      <Item value="System" priority="125" />
       <Item value="Linq" priority="26" />
       <Item value="Expressions" priority="26" />
       <Item value="IInstanceLocator`0" priority="31" />
-      <Item value="TAggregateRoot`0" priority="31" />
+      <Item value="TAggregateRoot`0" priority="191" />
       <Item value="abstract" priority="30" />
       <Item value="Infrastructure.Core" priority="123" />
       <Item value="Core.Ioc" priority="27" />
@@ -105,13 +104,13 @@
       <Item value="Roles" priority="26" />
       <Item value="Contexts" priority="26" />
       <Item value="DependencyResolver`0" priority="31" />
-      <Item value="new" priority="191" />
+      <Item value="new" priority="287" />
       <Item value="sealed" priority="30" />
       <Item value="IoCFactory`0" priority="191" />
       <Item value="UnityContainerHolder`0" priority="63" />
       <Item value="IUnityContainer`0" priority="31" />
       <Item value="UnityContainer" priority="28" />
-      <Item value="container" priority="63" />
+      <Item value="container" priority="95" />
       <Item value="Book`0" priority="159" />
       <Item value="void" priority="31" />
       <Item value="StoreBookContext`0" priority="31" />
@@ -120,14 +119,14 @@
       <Item value="BookStoreInfoRepository`0" priority="31" />
       <Item value="library" priority="161" />
       <Item value="ILibraryService`0" priority="95" />
-      <Item value="private" priority="95" />
-      <Item value="null" priority="63" />
+      <Item value="private" priority="191" />
+      <Item value="null" priority="95" />
       <Item value="book" priority="160" />
       <Item value="OutBookContext`0" priority="31" />
-      <Item value="this" priority="287" />
+      <Item value="this" priority="351" />
       <Item value="count" priority="191" />
       <Item value="int" priority="95" />
-      <Item value="UniqueId`0" priority="63" />
+      <Item value="UniqueId`0" priority="191" />
       <Item value="BookOutInfo`0" priority="127" />
       <Item value="bool" priority="31" />
       <Item value="DateTime`0" priority="95" />
@@ -138,11 +137,38 @@
       <Item value="OutBookContext" priority="28" />
       <Item value="book1" priority="31" />
       <Item value="BookOutInfoRepository`0" priority="31" />
-      <Item value="ContainerControlledLifetimeManager" priority="28" />
+      <Item value="ContainerControlledLifetimeManager" priority="57" />
       <Item value="iUnitOfWork" priority="31" />
       <Item value="bookStoreInfoRepository" priority="31" />
       <Item value="borrowInfoRepository" priority="31" />
       <Item value="Data" priority="165" />
+      <Item value="NewsStyleUriParser`0" priority="31" />
+      <Item value="TEntity`0" priority="63" />
+      <Item value="NHibernate" priority="123" />
+      <Item value="ISession`0" priority="159" />
+      <Item value="ISessionFactory" priority="63" />
+      <Item value="IFilter`0" priority="31" />
+      <Item value="session" priority="482" />
+      <Item value="Cfg" priority="53" />
+      <Item value="ConfigurationSchema" priority="26" />
+      <Item value="Configuration" priority="29" />
+      <Item value="Disposable`0" priority="31" />
+      <Item value="ISessionFactory`0" priority="95" />
+      <Item value="static" priority="63" />
+      <Item value="sessionFactory" priority="64" />
+      <Item value="IDatabaseFactory`0" priority="63" />
+      <Item value="databaseFactory" priority="224" />
+      <Item value="return" priority="63" />
+      <Item value="string" priority="31" />
+      <Item value="id" priority="31" />
+      <Item value="typeof" priority="31" />
+      <Item value="crit" priority="31" />
+      <Item value="DatabaseFactory`0" priority="31" />
+      <Item value="virtual" priority="63" />
+      <Item value="Guid`0" priority="85" />
+      <Item value="Guid" priority="29" />
+      <Item value="number" priority="31" />
+      <Item value="LibraryAccount`0" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
       <Item value="ForEach`0" priority="26" />
@@ -161,7 +187,7 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:Microsoft.Practices.Unity.IUnityContainer">
       <Item value="Parent" priority="26" />
-      <Item value="RegisterType`1" priority="26" />
+      <Item value="RegisterType`1" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Infrastructure.Core.Ioc.IInstanceLocator">
       <Item value="GetInstance`1" priority="107" />
@@ -195,6 +221,42 @@
       <Item value="bookOutInfoRepository" priority="26" />
       <Item value="bookStoreInfoRepository" priority="26" />
       <Item value="borrowInfoRepository" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.Cfg.Configuration">
+      <Item value="Configure`0" priority="26" />
+      <Item value="BuildSessionFactory`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Infrastructure.Data.IDatabaseFactory">
+      <Item value="Current`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ISession">
+      <Item value="Get`1" priority="80" />
+      <Item value="Save`0" priority="53" />
+      <Item value="Delete`0" priority="26" />
+      <Item value="Load`0" priority="26" />
+      <Item value="CreateQuery`0" priority="26" />
+      <Item value="Flush`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Infrastructure.Data.Resources.Messages">
+      <Item value="trace_DeletedItemRepository" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.IQuery">
+      <Item value="Enumerable`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NHibernate.ICriteria">
+      <Item value="List`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.Core.MainModule.Entities.Book">
+      <Item value="Id" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Domain.Core.MainModule.Entities.LibraryAccount">
+      <Item value="Number" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>

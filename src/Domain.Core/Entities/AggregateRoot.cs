@@ -19,7 +19,7 @@ namespace Domain.Core
         /// </summary>
         /// <typeparam name="TRole"></typeparam>
         /// <returns></returns>
-        public TRole ActAs<TRole>() where TRole : class
+        public virtual TRole ActAs<TRole>() where TRole : class
         {
             object role = null;
             var roleTypeDefinition = typeof(TRole);

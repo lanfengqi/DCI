@@ -1,18 +1,26 @@
-﻿using Domain.Core.MainModule.Entities;
+﻿using System;
+using Domain.Core.MainModule.Entities;
 
 namespace Domain.Core.MainModule.Entities
 {
-    public class LibraryAccount : AggregateRoot<UniqueId>
+    public class LibraryAccount : AggregateRoot<Guid>
     {
-        public LibraryAccount(string number) : this(new UniqueId(), number)
+        public LibraryAccount()
+            :this("1234124")
+        {}
+
+        public LibraryAccount(string number)
+            : this(Guid.NewGuid(), number)
         {
         }
-        public LibraryAccount(UniqueId id, string number) : base(id)
+        public LibraryAccount(Guid id, string number)
+            : base(id)
         {
+            this.Number = number;
         }
 
-        public string Number { get; private set; }
-        public string OwnerName { get; set; }
-        public bool IsLocked { get; set; }
+        public virtual string Number { get; private set; }
+        public virtual string OwnerName { get; set; }
+        public virtual bool IsLocked { get; set; }
     }
 }

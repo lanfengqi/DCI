@@ -5,13 +5,13 @@ using Infrastructure.CrossCutting.Ioc;
 
 namespace Domain.Core.MainModule.Roles
 {
-    public interface IBorrower : IRole<UniqueId>
+    public interface IBorrower : IRole<Guid>
     {
         void BorrowBook(Book book);
         void ReturnBook(Book book);
     }
 
-    public class Borrower : Role<LibraryAccount, UniqueId>, IBorrower
+    public class Borrower : Role<LibraryAccount, Guid>, IBorrower
     {
         private ILibraryService libraryService = IoCFactory.Instance.CurrentContainer.GetInstance<ILibraryService>();
 

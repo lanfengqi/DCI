@@ -23,3 +23,10 @@ E:\030.GitHub\DCI\src\Infrastructure.Data\obj\Debug\GenerateResource.read.1.tlog
 E:\030.GitHub\DCI\src\Infrastructure.Data\obj\Debug\GenerateResource.write.1.tlog
 E:\030.GitHub\DCI\src\Infrastructure.Data\obj\Debug\Infrastructure.Data.dll
 E:\030.GitHub\DCI\src\Infrastructure.Data\obj\Debug\Infrastructure.Data.pdb
+E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\Iesi.Collections.dll
+E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\NHibernate.dll
+E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\Castle.Core.dll
+E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\NHibernate.ByteCode.Castle.dll
+E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\Antlr3.Runtime.dll
+E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\Remotion.Data.Linq.dll
+E:\030.GitHub\DCI\src\Infrastructure.Data\bin\Debug\Infrastructure.Data.dll.config

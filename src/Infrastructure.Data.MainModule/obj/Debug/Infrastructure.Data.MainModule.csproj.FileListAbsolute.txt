@@ -28,3 +28,8 @@ E:\030.GitHub\DCI\src\Infrastructure.Data.MainModule\bin\Debug\Infrastructure.Cr
 E:\030.GitHub\DCI\src\Infrastructure.Data.MainModule\obj\Debug\ResolveAssemblyReference.cache
 E:\030.GitHub\DCI\src\Infrastructure.Data.MainModule\obj\Debug\Infrastructure.Data.MainModule.dll
 E:\030.GitHub\DCI\src\Infrastructure.Data.MainModule\obj\Debug\Infrastructure.Data.MainModule.pdb
+E:\030.GitHub\DCI\src\Infrastructure.Data.MainModule\bin\Debug\NHibernate.dll
+E:\030.GitHub\DCI\src\Infrastructure.Data.MainModule\bin\Debug\Iesi.Collections.dll
+E:\030.GitHub\DCI\src\Infrastructure.Data.MainModule\bin\Debug\Mappings\Book.hbm.xml
+E:\030.GitHub\DCI\src\Infrastructure.Data.MainModule\bin\Debug\Antlr3.Runtime.dll
+E:\030.GitHub\DCI\src\Infrastructure.Data.MainModule\bin\Debug\Remotion.Data.Linq.dll

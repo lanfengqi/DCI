@@ -1,14 +1,15 @@
-﻿using Domain.Core.MainModule.Entities;
+﻿using System;
+using Domain.Core.MainModule.Entities;
 
 namespace Domain.Core.MainModule.Entities
 {
-    public class BookStoreInfo : AggregateRoot<UniqueId>
+    public class BookStoreInfo : AggregateRoot<Guid>
     {
         public BookStoreInfo(Book book, int count)
-            : this(new UniqueId(), book, count)
+            : this(Guid.NewGuid(), book, count)
         {
         }
-        public BookStoreInfo(UniqueId id, Book book, int count)
+        public BookStoreInfo(Guid id, Book book, int count)
             : base(id)
         {
             this.Book = book;

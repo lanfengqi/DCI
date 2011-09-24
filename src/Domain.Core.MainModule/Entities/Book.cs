@@ -1,20 +1,22 @@
-﻿using Domain.Core;
+﻿using System;
 
 namespace Domain.Core.MainModule.Entities
 {
-    public class Book : AggregateRoot<UniqueId>
+    public class Book : AggregateRoot<Guid>
     {
-        public Book() : this(new UniqueId())
+        public Book()
+            : this(Guid.NewGuid())
         {
         }
-        public Book(UniqueId id) : base(id)
+        public Book(Guid id)
+            : base(id)
         {
         }
 
-        public string BookName { get; set; }
-        public string Author { get; set; }
-        public string Publisher { get; set; }
-        public string ISBN { get; set; }
-        public string Description { get; set; }
+        public virtual string BookName { get; set; }
+        public virtual string Author { get; set; }
+        public virtual string Publisher { get; set; }
+        public virtual string ISBN { get; set; }
+        public virtual string Description { get; set; }
     }
 }

@@ -4,12 +4,13 @@ using Domain.Core.MainModule.Roles;
 
 namespace Domain.Core.MainModule.Entities
 {
-    public class BorrowInfo : AggregateRoot<UniqueId>
+    public class BorrowInfo : AggregateRoot<Guid>
     {
-        public BorrowInfo(Book book, IBorrower borrower, DateTime borrowTime) : this(new UniqueId(), book, borrower, borrowTime)
+        public BorrowInfo(Book book, IBorrower borrower, DateTime borrowTime)
+            : this(Guid.NewGuid(), book, borrower, borrowTime)
         {
         }
-        public BorrowInfo(UniqueId id, Book book, IBorrower borrower, DateTime borrowTime)
+        public BorrowInfo(Guid id, Book book, IBorrower borrower, DateTime borrowTime)
             : base(id)
         {
             this.Book = book;

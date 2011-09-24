@@ -1,4 +1,5 @@
-﻿using Domain.Core.MainModule.Entities;
+﻿using System;
+using Domain.Core.MainModule.Entities;
 using Domain.Core.MainModule.Roles;
 using Domain.Core;
 
@@ -28,6 +29,6 @@ namespace Domain.Core.MainModule.Services
         /// <summary>
         /// 提供某本书的库存信息
         /// </summary>
-        BookStoreInfo GetBookStoreInfo(UniqueId bookId);
+        BookStoreInfo GetBookStoreInfo(Guid bookId);
     }
 }

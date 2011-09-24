@@ -71,7 +71,7 @@ namespace Domain.Core.MainModule.Services
             bookOutInfoRepository.Add(new BookOutInfo(book, count, DateTime.Now));
         }
 
-        public BookStoreInfo GetBookStoreInfo(UniqueId bookId)
+        public BookStoreInfo GetBookStoreInfo(Guid bookId)
         {
             return bookStoreInfoRepository.GetBookStoreInfo(bookId);
         }

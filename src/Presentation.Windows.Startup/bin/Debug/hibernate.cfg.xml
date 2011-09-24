@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-configuration  xmlns="urn:nhibernate-configuration-2.2" >
+	<session-factory name="NHibernate.Test">
+		<property name="connection.driver_class">NHibernate.Driver.SqlClientDriver</property>
+		<property name="connection.connection_string">
+      Data Source=WINDOWS-PHORTAS\SHAREPOINT;Initial Catalog=szcb;User ID=sa;Password=hg
+    </property>
+		<property name="dialect">NHibernate.Dialect.MsSql2008Dialect</property>
+    <property name='proxyfactory.factory_class'>NHibernate.ByteCode.Castle.ProxyFactoryFactory, NHibernate.ByteCode.Castle</property>
+    <mapping assembly="Domain.Core.MainModule"/>    
+	</session-factory>
+</hibernate-configuration>
