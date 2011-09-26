@@ -54,19 +54,43 @@ namespace Infrastructure.Data
 
         public virtual void Add(TAggregateRoot aggregateRoot)
         {
-            session.Save(aggregateRoot);
-            session.Flush();
+            using (ITransaction tx = session.BeginTransaction())
+            {
+                try
+                {
+                    session.Save(aggregateRoot);
+                    session.Flush();
+                    tx.Commit();
+                }
+                catch (HibernateException)
+                {
+                    tx.Rollback();
+                    throw;
+                }
+            }
             _TraceManager.TraceInfo(
-                string.Format(CultureInfo.InvariantCulture,
-                              Resources.Messages.trace_AddedItemRepository,
-                              typeof(TAggregateRoot).Name));
+                        string.Format(CultureInfo.InvariantCulture,
+                                      Resources.Messages.trace_AddedItemRepository,
+                                      typeof(TAggregateRoot).Name));
 
         }
 
         public virtual void Remove(TAggregateRoot aggregateRoot)
         {
-            session.Delete(aggregateRoot);
-            session.Flush();
+            using (ITransaction tx = session.BeginTransaction())
+            {
+                try
+                {
+                    session.Delete(aggregateRoot);
+                    session.Flush();
+                    tx.Commit();
+                }
+                catch (HibernateException)
+                {
+                    tx.Rollback();
+                    throw;
+                }
+            }
             _TraceManager.TraceInfo(
               string.Format(CultureInfo.InvariantCulture,
                             Resources.Messages.trace_DeletedItemRepository,
@@ -75,8 +99,20 @@ namespace Infrastructure.Data
 
         public virtual void Update(TAggregateRoot aggregateRoot)
         {
-            session.Update(aggregateRoot);
-            session.Flush();
+            using (ITransaction tx = session.BeginTransaction())
+            {
+                try
+                {
+                    session.Update(aggregateRoot);
+                    session.Flush();
+                    tx.Commit();
+                }
+                catch (HibernateException)
+                {
+                    tx.Rollback();
+                    throw;
+                }
+            }
             _TraceManager.TraceInfo(string.Format(CultureInfo.InvariantCulture,
                 Resources.Messages.trace_AppliedChangedItemRepository,
                 typeof(TAggregateRoot).Name));
