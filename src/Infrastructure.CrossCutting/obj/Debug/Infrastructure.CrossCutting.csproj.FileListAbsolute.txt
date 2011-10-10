@@ -3,3 +3,8 @@ E:\030.GitHub\DCI\src\Infrastructure.CrossCutting\bin\Debug\Infrastructure.Cross
 E:\030.GitHub\DCI\src\Infrastructure.CrossCutting\obj\Debug\ResolveAssemblyReference.cache
 E:\030.GitHub\DCI\src\Infrastructure.CrossCutting\obj\Debug\Infrastructure.CrossCutting.dll
 E:\030.GitHub\DCI\src\Infrastructure.CrossCutting\obj\Debug\Infrastructure.CrossCutting.pdb
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting\bin\Debug\Infrastructure.CrossCutting.dll
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting\bin\Debug\Infrastructure.CrossCutting.pdb
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting\obj\Debug\ResolveAssemblyReference.cache
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting\obj\Debug\Infrastructure.CrossCutting.dll
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting\obj\Debug\Infrastructure.CrossCutting.pdb

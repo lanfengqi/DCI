@@ -8,3 +8,13 @@ E:\030.GitHub\DCI\src\Infrastructure.CrossCutting.NetFramework\obj\Debug\Generat
 E:\030.GitHub\DCI\src\Infrastructure.CrossCutting.NetFramework\obj\Debug\GenerateResource.write.1.tlog
 E:\030.GitHub\DCI\src\Infrastructure.CrossCutting.NetFramework\obj\Debug\Infrastructure.CrossCutting.NetFramework.dll
 E:\030.GitHub\DCI\src\Infrastructure.CrossCutting.NetFramework\obj\Debug\Infrastructure.CrossCutting.NetFramework.pdb
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting.NetFramework\bin\Debug\Infrastructure.CrossCutting.NetFramework.dll
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting.NetFramework\bin\Debug\Infrastructure.CrossCutting.NetFramework.pdb
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting.NetFramework\bin\Debug\Infrastructure.CrossCutting.dll
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting.NetFramework\bin\Debug\Infrastructure.CrossCutting.pdb
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting.NetFramework\obj\Debug\ResolveAssemblyReference.cache
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting.NetFramework\obj\Debug\Infrastructure.CrossCutting.NetFramework.Resources.Messages.resources
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting.NetFramework\obj\Debug\GenerateResource.read.1.tlog
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting.NetFramework\obj\Debug\GenerateResource.write.1.tlog
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting.NetFramework\obj\Debug\Infrastructure.CrossCutting.NetFramework.dll
+E:\030.GitHub\010.DCI\src\Infrastructure.CrossCutting.NetFramework\obj\Debug\Infrastructure.CrossCutting.NetFramework.pdb

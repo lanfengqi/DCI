@@ -1,1 +1,1 @@
-DCI 图书管理系统 V0.1
+DCI DEMO V0.1

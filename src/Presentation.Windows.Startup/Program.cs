@@ -39,7 +39,7 @@ namespace Presentation.Windows.Startup
             IUnityContainer container = new UnityContainer();
             UnityContainerHolder.UnityContainer = container;
 
-            container.RegisterType<IUnitOfWork, UnitOfWork>(new ContainerControlledLifetimeManager());
+            IUnityContainer unityContainer = container.RegisterType<IUnitOfWork, UnitOfWork>(new ContainerControlledLifetimeManager());
             //container.RegisterType<IEventPublisher, EventPublisher>(new ContainerControlledLifetimeManager());
 
             container.RegisterType<ILibraryService, LibraryService>(new ContainerControlledLifetimeManager());
@@ -68,6 +68,7 @@ namespace Presentation.Windows.Startup
             var book1 = new Book { BookName = "C#高级编程", Author = "Jhon Smith", ISBN = "56-YAQ-23452", Publisher = "清华大学出版社", Description = "A very good book." };
             var book2 = new Book { BookName = "JQuery In Action", Author = "Jhon Smith", ISBN = "09-BEH-23452", Publisher = "人民邮电出版社", Description = "A very good book." };
             
+
             bookRepository.Add(book1);
             bookRepository.Add(book2);
 
